@@ -8,23 +8,40 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Picks Dashboard</h1>
-    <p>Over 2.5 • BTTS • Over 1.5 • Live Supabase</p>
+
+  <header class="header">
+    <div>
+      <h1>Picks Dashboard</h1>
+      <p class="subtitle">Over 2.5 • BTTS • Over 1.5 • Live Supabase</p>
+    </div>
+    <div class="header-buttons">
+      <button class="btn ghost">Wide</button>
+      <button class="btn ghost">Reset</button>
+    </div>
   </header>
 
-  <main>
-    <div class="tab active">Value Bets</div>
+  <main class="container">
 
-    <div id="status">Loading...</div>
-    <div id="count"></div>
-
-    <div class="tableWrap">
-      <table id="tbl">
-        <thead></thead>
-        <tbody></tbody>
-      </table>
+    <div class="tab-row">
+      <button class="tab active">Value Bets</button>
     </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span id="status">Loading...</span>
+          <span id="count"></span>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table id="tbl">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
   </main>
 
   <script src="app.js"></script>

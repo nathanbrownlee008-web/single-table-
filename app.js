@@ -30,7 +30,7 @@ async function loadTable() {
   }
 
   status.textContent = "Live Supabase data";
-  count.textContent = data.length + " rows";
+  count.textContent = " • " + data.length + " rows";
 
   thead.innerHTML = "";
   tbody.innerHTML = "";
