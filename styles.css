@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1e293b;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+
+th {
+  background: #334155;
+}
